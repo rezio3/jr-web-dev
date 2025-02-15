@@ -1,0 +1,18 @@
+@import "../style/_variables.scss";
+
+.bg-landing-container {
+  height: 500px;
+  background-color: $darkPurple;
+  border-top-left-radius: 200%;
+  border-top-right-radius: 200%;
+  box-shadow: 0 -20px 5px $darkPurple;
+  //   border: 1px solid white;
+}
+
+.glow {
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 -20px 200px white;
+  z-index: -1;
+}
