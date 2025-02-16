@@ -1,4 +1,4 @@
-@import "./style/_variables.scss";
+@import "./style/variables.scss";
 
 * {
   box-sizing: border-box;
@@ -17,10 +17,4 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-.landing-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }

@@ -11,7 +11,9 @@ const MenuBarView = () => {
         {buttons.map((button, index) => (
           <>
             <Button label={button} className="text-xl" />
-            {index === 1 && <img src={logo} alt="jr-logo" width={70} />}
+            {index === 1 /* Indicates the middle of the array. */ && (
+              <img src={logo} alt="jr-logo" width={70} />
+            )}
           </>
         ))}
       </nav>

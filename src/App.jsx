@@ -5,7 +5,7 @@ import MenuBarView from "./menuBar/MenuBarView.tsx";
 function App() {
   return (
     <>
-      <div className="landing-container sm:px-10 px-2">
+      <div className="w-full flex flex-col items-center sm:px-10 px-2">
         <MenuBarView />
         <BgLanding />
       </div>
