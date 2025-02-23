@@ -8,11 +8,6 @@
 .nav-logo {
   animation: logoIntro 2s ease-in-out forwards;
 }
-// .nav-btn {
-//   transition: 0.5s;
-// }
-// .nav-btn:hover {
-// }
 
 .home-nav-btn {
   @include nav-btn-animation(homeNavBtnIntro);
