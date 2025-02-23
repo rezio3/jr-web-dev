@@ -20,16 +20,14 @@ const BgLanding = () => {
   }, []);
 
   return (
-    <>
-      <div className="bg-landing-container absolute h-[500px] xl:w-full sm:w-[1300px] w-[1000px] mt-[200px]">
-        <div
-          ref={glowRef}
-          className="glow absolute w-3/4 h-[100px] rounded-[50%]"
-        />
-        <div className="glow-blink absolute w-1/4 h-[100px] rounded-[50%]" />
-        <div className="glow-blink2 absolute w-1/4 h-[100px] rounded-[50%]" />
-      </div>
-    </>
+    <div className="bg-landing-container absolute h-[500px] xl:w-full sm:w-[1300px] w-[1000px] mt-[200px]">
+      <div
+        ref={glowRef}
+        className="glow absolute w-3/4 h-[100px] rounded-[50%]"
+      />
+      <div className="glow-blink absolute w-1/4 h-[100px] rounded-[50%]" />
+      <div className="glow-blink2 absolute w-1/4 h-[100px] rounded-[50%]" />
+    </div>
   );
 };
 
