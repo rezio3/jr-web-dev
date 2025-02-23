@@ -1,4 +1,4 @@
-@import "../style/animationKeys.scss";
+@use "../style/animationKeys.scss";
 
 @mixin nav-btn-animation($animation-name) {
   opacity: 0;

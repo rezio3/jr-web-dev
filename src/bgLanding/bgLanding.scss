@@ -1,11 +1,11 @@
-@import "../style/animationKeys.scss";
-@import "../style/variables.scss";
+@use "../style/animationKeys.scss";
+@use "../style/variables.scss";
 
 .bg-landing-container {
-  background-color: $darkPurple;
+  background-color: variables.$darkPurple;
   border-top-left-radius: 200%;
   border-top-right-radius: 200%;
-  box-shadow: 0 -20px 5px $darkPurple;
+  box-shadow: 0 -20px 5px variables.$darkPurple;
 }
 
 .glow {
