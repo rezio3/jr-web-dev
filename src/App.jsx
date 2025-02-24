@@ -1,15 +1,15 @@
 import "./app.scss";
-import BgLanding from "./bgLanding/BgLanding.tsx";
-import NavBarView from "./navBar/NavBarView.tsx";
-import Landing from "./sections/Landing.tsx";
+import Background from "./components/background/Background.tsx";
+import NavBarView from "./components/navBar/NavBarView.tsx";
+import LandingView from "./views/LandingView.tsx";
 
 function App() {
   return (
     <div className="app-wrapper relative w-full flex flex-col items-center sm:px-10 px-2">
       <NavBarView />
-      <BgLanding />
+      <Background />
       <div className="mt-[180px] z-1">
-        <Landing />
+        <LandingView />
       </div>
     </div>
   );

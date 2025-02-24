@@ -1,11 +1,11 @@
 import * as React from "react";
 
-const Landing = () => {
+const LandingView = () => {
   return (
     <div className="flex justify-center">
       <div className="w-1/2">
         {/* <h1 className="atkinson text-5xl w-3/4">
-          Landing page i strony internetowe, które zwiększają konwersję
+          LandingView page i strony internetowe, które zwiększają konwersję
           <br /> i przyciągną klientów.
         </h1> */}
       </div>
@@ -13,4 +13,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default LandingView;

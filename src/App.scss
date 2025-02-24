@@ -1,4 +1,4 @@
-@use "./style/variables.scss";
+@use "./styles/variables.scss";
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,6 @@ html {
 body {
   background-color: variables.$darkPurple;
   color: white;
-  margin-top: 20px;
   font-family: "Montserrat", serif;
   font-weight: 400;
   overflow-x: hidden;
