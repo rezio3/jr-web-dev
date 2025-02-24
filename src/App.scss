@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: variables.$darkPurple;
   color: white;
@@ -18,3 +22,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.app-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+// .atkinson {
+//   font-family: "Atkinson Hyperlegible Mono", serif;
+//   font-weight: 400;
+// }

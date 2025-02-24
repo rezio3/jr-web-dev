@@ -5,7 +5,7 @@ import Landing from "./sections/Landing.tsx";
 
 function App() {
   return (
-    <div className="w-full flex flex-col items-center sm:px-10 px-2">
+    <div className="app-wrapper relative w-full flex flex-col items-center sm:px-10 px-2">
       <NavBarView />
       <BgLanding />
       <div className="mt-[180px] z-1">

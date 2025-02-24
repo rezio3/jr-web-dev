@@ -8,35 +8,26 @@
   box-shadow: 0 -20px 5px variables.$darkPurple;
 }
 
-.glow {
+[class*="glow"] {
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 -20px 200px rgb(168, 123, 157);
   z-index: -1;
+}
+
+.glow {
+  box-shadow: 0 -20px 200px rgb(168, 123, 157);
   animation: glowIntro 4s ease-in-out forwards;
 }
 .glowLoop {
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
   box-shadow: 0 -20px 200px rgb(168, 123, 157);
-  z-index: -1;
   animation: glowLoop 6s ease-in-out infinite;
 }
 .glow-blink {
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
   box-shadow: 350px -20px 200px rgb(253, 253, 253);
-  z-index: -1;
   animation: glowBlinkIntro 4s ease-in-out forwards;
 }
 .glow-blink2 {
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
   box-shadow: -350px -20px 200px rgb(253, 253, 253);
-  z-index: -1;
   animation: glowBlink2Intro 6s ease-in-out forwards;
 }
