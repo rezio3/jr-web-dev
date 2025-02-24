@@ -1,15 +1,13 @@
-import "./App.scss";
-import BgLanding from "./bgLanding/BgLanding.jsx";
-import MenuBarView from "./menuBar/MenuBarView.tsx";
+import "./app.scss";
+import BgLanding from "./bgLanding/BgLanding.tsx";
+import NavBarView from "./navBar/NavBarView.tsx";
 
 function App() {
   return (
-    <>
-      <div className="landing-container">
-        <MenuBarView />
-        <BgLanding />
-      </div>
-    </>
+    <div className="w-full flex flex-col items-center sm:px-10 px-2">
+      <NavBarView />
+      <BgLanding />
+    </div>
   );
 }
 

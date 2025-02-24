@@ -1,0 +1,23 @@
+@use "../style/animationKeys.scss";
+
+@mixin nav-btn-animation($animation-name) {
+  opacity: 0;
+  animation: $animation-name 2s ease-in-out 1.5s forwards;
+}
+
+.nav-logo {
+  animation: logoIntro 2s ease-in-out forwards;
+}
+
+.home-nav-btn {
+  @include nav-btn-animation(homeNavBtnIntro);
+}
+.projekty-nav-btn {
+  @include nav-btn-animation(projektyNavBtnIntro);
+}
+.wycena-nav-btn {
+  @include nav-btn-animation(wycenaNavBtnIntro);
+}
+.kontakt-nav-btn {
+  @include nav-btn-animation(kontaktNavBtnIntro);
+}

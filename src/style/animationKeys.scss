@@ -1,0 +1,116 @@
+@keyframes glowIntro {
+  0% {
+    box-shadow: 0px -20px 200px rgb(168, 123, 157);
+  }
+  10% {
+    box-shadow: 0px -20px 200px rgb(168, 123, 157);
+  }
+  50% {
+    box-shadow: 0 -50px 200px rgb(143, 195, 243);
+  }
+  100% {
+    box-shadow: 0 -20px 200px rgb(168, 123, 157);
+  }
+}
+
+@keyframes glowLoop {
+  0% {
+    box-shadow: 0 -20px 200px rgb(168, 123, 157);
+  }
+  50% {
+    box-shadow: 0 -40px 200px rgb(219, 153, 221);
+  }
+  100% {
+    box-shadow: 0 -20px 200px rgb(168, 123, 157);
+  }
+}
+
+@keyframes glowBlinkIntro {
+  0% {
+    box-shadow: -350px -20px 200px rgb(255, 57, 212);
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 350px 0px 200px rgb(115, 222, 255);
+    opacity: 0;
+  }
+}
+
+@keyframes glowBlink2Intro {
+  0% {
+    box-shadow: 350px 0px 200px rgb(255, 255, 255);
+    opacity: 0;
+  }
+  50% {
+    box-shadow: 350px -100px 200px rgb(105, 72, 255);
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.7;
+  }
+
+  100% {
+    box-shadow: -350px 0px 150px rgb(255, 113, 231);
+    opacity: 0;
+  }
+}
+
+@keyframes logoIntro {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes homeNavBtnIntro {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes projektyNavBtnIntro {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes wycenaNavBtnIntro {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes kontaktNavBtnIntro {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
