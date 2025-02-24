@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: variables.$darkPurple;
-  color: white;
+  color: variables.$almostWhite;
   font-family: "Montserrat", serif;
   font-weight: 400;
   overflow-x: hidden;
@@ -26,7 +26,13 @@ body {
   overflow-x: hidden;
 }
 
-// .atkinson {
-//   font-family: "Atkinson Hyperlegible Mono", serif;
-//   font-weight: 400;
-// }
+.bebas-neue {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.montserrat {
+  font-family: "Montserrat", serif !important;
+  font-weight: 400;
+}

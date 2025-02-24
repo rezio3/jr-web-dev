@@ -13,13 +13,15 @@ const NavBarView = () => {
 
   return (
     <div className="p-1 xl:w-2/4 lg:w-3/4 w-full mt-2 md:mt-4">
-      <nav className="w-full flex justify-between">
+      <nav className="w-full flex justify-between items-center">
         {buttons.map((button, index) => (
           <>
             <Button
-              label={button.label}
-              className={`md:text-xl text-md nav-btn ${button.className}`}
-            />
+              className={`md:text-5xl text-md nav-btn ${button.className}`}
+              variant="text"
+            >
+              {button.label}
+            </Button>
             {index === 1 /* Indicates the middle of the array. */ && (
               <img src={logo} alt="jr-logo" width={70} className="nav-logo" />
             )}

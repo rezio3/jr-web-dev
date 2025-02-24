@@ -1,0 +1,18 @@
+@use "../styles/animationKeys.scss";
+
+.mask-gradient {
+  mask-image: linear-gradient(
+    to bottom left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0)
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.globe-icon {
+  animation: globeRotate 60s linear infinite;
+}
