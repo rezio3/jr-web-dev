@@ -1,9 +1,9 @@
 import { createTheme } from "@mui/material";
-import { deepOrange, deepPurple } from "@mui/material/colors";
+import { deepOrange, green } from "@mui/material/colors";
 
 export const theme = createTheme({
   palette: {
-    primary: deepPurple,
+    primary: green,
     secondary: deepOrange,
   },
   components: {

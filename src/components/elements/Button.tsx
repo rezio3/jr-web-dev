@@ -14,14 +14,24 @@ export type ButtonProps = {
     | "info"
     | "warning"
     | undefined;
+  padding?: string | undefined;
+  fontSize: string | undefined;
 };
 
-const Button = ({ children, className, variant, color }: ButtonProps) => {
+const Button = ({
+  children,
+  className,
+  variant,
+  color,
+  padding,
+  fontSize,
+}: ButtonProps) => {
   return (
     <ButtonMUI
       className={`cursor-pointer montserrat ${className || ""}`}
       variant={variant || "text"}
       color={color || "primary"}
+      sx={{ padding: padding || "", fontSize: fontSize || "" }}
     >
       {children}
     </ButtonMUI>
