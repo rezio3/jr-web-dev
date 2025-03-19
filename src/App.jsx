@@ -1,13 +1,21 @@
 import "./app.scss";
-import BgLanding from "./bgLanding/BgLanding.tsx";
-import NavBarView from "./navBar/NavBarView.tsx";
+import Background from "./components/background/Background.tsx";
+import NavBarView from "./components/navBar/NavBarView.tsx";
+import LandingView from "./views/LandingView.tsx";
+import { theme } from "./styles/themeMUI.ts";
+import { ThemeProvider } from "@mui/material/styles";
 
 function App() {
   return (
-    <div className="w-full flex flex-col items-center sm:px-10 px-2">
-      <NavBarView />
-      <BgLanding />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="app-wrapper relative w-full flex flex-col items-center sm:px-10 px-2">
+        <NavBarView />
+        <Background />
+        <div className="z-1 w-full">
+          <LandingView />
+        </div>
+      </div>
+    </ThemeProvider>
   );
 }
 

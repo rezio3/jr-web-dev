@@ -18,7 +18,7 @@
     box-shadow: 0 -20px 200px rgb(168, 123, 157);
   }
   50% {
-    box-shadow: 0 -40px 200px rgb(219, 153, 221);
+    box-shadow: 0 -40px 200px rgb(153, 190, 221);
   }
   100% {
     box-shadow: 0 -20px 200px rgb(168, 123, 157);
@@ -112,5 +112,15 @@
   100% {
     opacity: 1;
     transform: translateX(0px);
+  }
+}
+
+@keyframes globeRotate {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
   }
 }

@@ -1,13 +1,16 @@
-@use "./style/variables.scss";
+@use "./styles/variables.scss";
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: variables.$darkPurple;
-  color: white;
-  margin-top: 20px;
+  color: variables.$almostWhite;
   font-family: "Montserrat", serif;
   font-weight: 400;
   overflow-x: hidden;
@@ -17,4 +20,19 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.app-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.bebas-neue {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.montserrat {
+  font-family: "Montserrat", serif !important;
+  font-weight: 400;
 }

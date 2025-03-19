@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef } from "react";
-import "./BgLanding.scss";
+import "./background.scss";
 
-const BgLanding = () => {
+const Background = () => {
   const glowRef = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
     const glowElement = glowRef.current;
@@ -20,7 +20,7 @@ const BgLanding = () => {
   }, []);
 
   return (
-    <div className="bg-landing-container absolute h-[500px] xl:w-full sm:w-[1300px] w-[1000px] mt-[200px]">
+    <div className="bg-landing-container absolute h-[500px] xl:w-full sm:w-[1300px] w-[1000px] mt-[150px] md:mt-[200px]">
       <div
         ref={glowRef}
         className="glow absolute w-3/4 h-[100px] rounded-[50%]"
@@ -31,4 +31,4 @@ const BgLanding = () => {
   );
 };
 
-export default BgLanding;
+export default Background;
